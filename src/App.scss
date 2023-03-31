@@ -1,0 +1,93 @@
+// Colors
+
+// Primary
+
+  $desaturated-red: hsl(0, 36%, 70%);
+  $soft-red: hsl(0, 93%, 68%);
+
+// ### Neutral
+
+  $dark-grayish-red: hsl(0, 6%, 24%);
+  $bg-main: hsl(12, 71%, 99%);
+
+// ### Gradients
+
+// - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+// - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+
+header {
+  padding: 1.4rem 1.5rem;
+
+  img {
+    width: 100px;
+    height: 22px;
+  }
+}
+
+main {
+  min-height: 100vh;
+  text-align: center;
+
+  img {
+    width: 100%;
+    height: 320px;
+  }
+
+  .container {
+    padding: 3rem 0 2rem 0;
+
+    h1 {
+      padding: 0rem 4rem;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      font-weight: 300;
+      color: $desaturated-red;
+      margin-bottom: 1.52rem;
+      strong {
+        font-weight: 400;
+        color: #000;
+      }
+    }
+
+    p {
+      color: $desaturated-red;
+      padding: 0 2rem ;
+      margin-bottom: 1.52rem;
+      line-height: 20px;
+    }
+
+    form {
+
+      .input-container {
+        position: relative;
+
+        input {
+          width: 75%;
+          border: 1px solid $desaturated-red;
+          border-radius: 40px;
+          padding: 1rem 0;
+  
+          &::placeholder {
+            padding-left: 1rem;
+            font-weight: 400;
+            color: $desaturated-red;
+            font-family: 'Josefin Sans', sans-serif;
+          }
+        }
+
+        span {
+          position: absolute;
+          background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+          right: 12%;
+          top: -1%;
+          padding: 0.8rem 1.6rem;
+          border-radius: 40px;
+        }
+      }
+      
+
+    }
+  }
+
+}
