@@ -42,7 +42,6 @@ main {
     display: flex;
     flex-direction: row-reverse;
     text-align: left;
-    gap: 2rem;
   }
 
   .hero-mobile {
@@ -75,8 +74,9 @@ main {
       align-items: center;
       flex-direction: column;
       height: 100vh;
-      padding: 3rem 8rem 0 8rem;
+      padding: 3rem 9rem 0 9rem;
       gap: 7rem;
+      background: url("/bg-pattern-desktop.svg");
     }
 
     .logo-desktop-container {
