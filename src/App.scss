@@ -142,6 +142,7 @@ main {
           border-radius: 40px;
           padding: 1rem 0;
           padding-left: 2rem;
+        
   
           &::placeholder {
             font-weight: 400;
@@ -154,11 +155,12 @@ main {
           border: none;
           position: absolute;
           background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-          right: 12%;
+          right: 8.6%;
           top: -1%;
           padding: 0.8rem 2.4rem;
           border-radius: 40px;
           transition: .4s ease-in-out;
+          box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.6);
 
           &:hover {
             cursor: pointer;

@@ -51,6 +51,9 @@ function App() {
                                     placeholder="Email Address"
                                 />
                                 {   emailError && (<img src="/icon-error.svg" className="error-icon"/>)}
+                                <div>
+                                    
+                                </div>
                                 <button>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
