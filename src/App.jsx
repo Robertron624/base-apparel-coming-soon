@@ -10,8 +10,12 @@ function App() {
                 <img src="/logo.svg" alt="logo" />
             </header>
             <main>
-                <img src="/hero-desktop.jpg" alt="hero" />
+                    <div className="heroes">
+                        <img className="hero-mobile" src="/hero-mobile.jpg" alt="hero" />
+                        <img className="hero-desktop" src="/hero-desktop.jpg" alt="hero" />
+                    </div>
                 <div className="container">
+                  <img src="/logo.svg" alt="desktop logo" />
                   <h1>We're <strong>coming soon</strong></h1>
                   <p>
                       {" "}
