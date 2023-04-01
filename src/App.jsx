@@ -67,6 +67,7 @@ function App() {
                                             d="M1 1l8.836 8.836L1 18.671"
                                         />
                                     </svg>
+                                    <span>Send</span>
                                 </button>
                                 {   emailError && (<div className="input-error">Please provide a valid email</div>)}
                             </div>

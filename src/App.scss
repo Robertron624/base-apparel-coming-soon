@@ -167,6 +167,10 @@ main {
             opacity: .4 ;
           }
 
+          span {
+            font-size: 0;
+          }
+
           @include desktop {
             right: 18.8%;
           }
