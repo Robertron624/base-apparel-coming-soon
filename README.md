@@ -30,10 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/72587880/229303618-dcf06eda-fb94-4be1-9916-b234258076a8.png)
+
+
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Robertron624/base-apparel-coming-soon)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://illustrious-sunburst-70959a.netlify.app/)
 
 ## My process
 
